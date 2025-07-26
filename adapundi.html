@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adapundi - Hubungi Kami via WhatsApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Animation */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .whatsapp-btn:hover {
+            animation: pulse 1.5s infinite;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+        
+        /* For devices with width less than 768px */
+        @media (max-width: 768px) {
+            .whatsapp-btn {
+                bottom: 20px;
+                right: 20px;
+                width: 60px;
+                height: 60px;
+                font-size: 28px;
+                color: #0056b3;
+            }
+            
+            .whatsapp-tooltip {
+                bottom: 70px;
+                right: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://www.adapundi.com/assets/logo_new-CRoNxM4O.png" alt="Logo Ajaib Alpha dengan desain modern warna biru dan putih" class="h-10">
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#fitur" class="text-gray-700 hover:text-blue-600 transition">Fitur</a>
+                <a href="#tentang" class="text-gray-700 hover:text-blue-600 transition">Tentang</a>
+                <a href="#faq" class="text-gray-700 hover:text-blue-600 transition">FAQ</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+            </div>
+        </div>
+    </header>
+   </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOSX-XKjk5-73UV-QQLoCn5fqqr7jl0WyM0a5Cf=s1360-w720-h1360-rw" alt="Ilustrasi dashboard Ajaib Alpha dengan grafik investasi modern di perangkat mobile dan desktop" class="rounded-lg shadow-1xl">
+            </div>
+    <!-- Hero Section -->
+    <section class="py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h5 class="text-4xl md:text-3xl font-bold text-gray-800 mb-6">Bagaimana jika saya mengalami masalah terkait aplikasi?</h5>
+            <p class="text-lg text-gray-600 mb-8">Anda bisa menghubungi Layanan Pengaduan kami Setiap Hari Layanan 24/7 melalui:
+- Live chat Whatsapp: 0821-2550-1704
+- Telepon: (021) 50860666
+- Email: cs@adapundi.com</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition shadow-md">Layanan Kami</button>
+                <button class="bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 px-6 py-3 rounded-lg font-medium transition shadow-sm">Pelajari Lebih</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Keunggulan Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-rocket text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Cepat & Efisien</h3>
+                    <p class="text-gray-600 text-center">Proses layanan yang cepat dan efisien untuk menghemat waktu Anda.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-shield-alt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Terpercaya</h3>
+                    <p class="text-gray-600 text-center">Layanan profesional dengan tingkat kepercayaan tinggi.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-headset text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Dukungan 24/7</h3>
+                    <p class="text-gray-600 text-center">Tim kami siap membantu kapan saja Anda membutuhkan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="fixed bottom-8 right-8 z-50">
+        <!-- Tooltip -->
+        <div class="whitespace-nowrap absolute bottom-16 right-0 bg-gray-800 text-white text-sm px-3 py-2 rounded-lg whatsapp-tooltip hidden md:block">
+            Hubungi Kami via WhatsApp
+            <div class="absolute w-3 h-3 bg-gray-800 rotate-45 -bottom-1 right-4"></div>
+        </div>
+        
+        <!-- Button -->
+        <a href="https://wa.me/6282125501704?text=Halo%20Adapundi,%20saya%20ingin%20bertanya..." 
+           class="whatsapp-btn flex items-center justify-center bg-green-500 text-white rounded-full w-16 h-16 text-3xl shadow-lg transition-all duration-300 hover:bg-green-600">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+<!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="https://www.adapundi.com/assets/logo_white-Beid1lHe.png" alt="Logo footer Ajaib Alpha dengan warna putih" class="h-8 mb-4">
+                    <h1 class="text-gray-400">PT Info Tekno Siaga</h1>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Layanan</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Konsultasi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Pengembangan</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Dukungan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Kontak</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><i class="fas fa-map-marker-alt mt-1 mr-2"></i><span class="text-gray-400">Jl. Gatot Subroto No.18, RT.6/RW.1, Kuningan Bar., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12710</span></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2"></i><span class="text-gray-400">+62 821 2550 1704</span></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2"></i><span class="text-gray-400">info@adapundi.com</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Sosial Media</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>© 2025 Adapundi - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // WhatsApp Button Animation and Tooltip
+        const whatsappBtn = document.querySelector('.whatsapp-btn');
+        const whatsappTooltip = document.querySelector('.whatsapp-tooltip');
+        
+        whatsappBtn.addEventListener('mouseenter', () => {
+            whatsappTooltip.classList.remove('hidden');
+        });
+        
+        whatsappBtn.addEventListener('mouseleave', () => {
+            whatsappTooltip.classList.add('hidden');
+        });
+        
+        // Mobile menu toggle would go here
+        // document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+        //     document.querySelector('.mobile-menu').classList.toggle('hidden');
+        // });
+    </script>
+</body>
+</html>
+
